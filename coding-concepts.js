@@ -29,7 +29,7 @@
 
 // // a) Your answer: o
 // // b) Verify and explain: The value that we are logging is called 
-// When you console log and pass the variable greeting followed by the number four in brackets. The terminal will return o in hello. The reason why it does this is because we are using indexing to access our string, Characters in a string are indexed from left to right starting with zero and counts up in assending order in number.
+// When you console log and pass the variable greeting followed by the number four in brackets. The terminal will return o in hello. The reason why it does this is because we are using indexing as an accessor to pull a spacific value to a string. The Characters in a string are indexed from left to right starting with zero and counts up in assending order in number we can use indexing to pull spacific data from the string.
 
 
 
@@ -40,7 +40,8 @@
                     // console.log(languages[index])
 
                     // // a) Your answer: When you log this into the terminal you should get, Ruby. 
-                    // // b) Verify and explain: When the computer get told to go through an array you it will 
+                    // // b) Verify and explain: When the computer gets told to go through an array it will use the numbers as an accessor to pull a spacific value of data from it. The Characters in a string are indexed from left to right starting with zero and counts up in assending order in number we can use indexing to pull spacific data. In this problem we console logged value and called on the first index within the array languages.
+
 
 // // --------------------4) What will this log?
 
@@ -59,7 +60,8 @@
 // SIDE-NOTE:
 // (This was a funny one! Every value in the array is one of the 6 data types. I tried to keep in mind they they are just words. The computer is dumb and cannot recognize words unless we define them. I tried to create a few problem of my own to better understand its use cases as well.) 
 
-// // b) Verify and explain: First lets identify the different use cases of type of and .length up above in the problem this is variable, LearnStudents that has an Array. theh Array has a colletions of values, ["Debra", "Jonas", "Joel"] that is indexed by numbers starting with the number Zero and goes up in asending order in accordance with every value. .length, is also an informational command that returns the NUMBER of elements in the array. Moving onto the "typeof" operator. The typeof operator is used to differentiate primiative data types. Up above above we have an array with strings in it. type of will return, one; of the primative data types. When call on,learnstudents variable the computer identifies that it needs to use the typeof which idenfies the string and the data type. Then the dot length will count the spaces and then add another index to the problem but it will not be logged.   
+// // b) Verify and explain: First lets identify the different use cases of type of and .length up above in the problem this is variable, LearnStudents that has an Array. the Array has a colletions of values, ["Debra", "Jonas", "Joel"] that is indexed by numbers starting with the number Zero and goes up in asending order in accordance with every value. .length, is also an informational command that returns the NUMBER of elements in the array. Moving onto the "typeof" operator. The typeof operator is used to differentiate primiative data types. Up above above we have an array with strings in it. type of will return, one; of the primative data types. When call on,learnstudents variable the computer identifies that it needs to use the typeof which idenfies the string and the data type. Then the dot length will count the spaces and then add another index to the problem but it will not be logged.   
 
+// -----------------------------------------------------------------------------------
 
 

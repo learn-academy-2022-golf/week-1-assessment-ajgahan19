@@ -1,5 +1,8 @@
 // ASSESSMENT 1: Coding Practical Questions
 
+   
+
+
 // To run file: navigate to the correct directory in terminal, $ node code-challenges.js
 
 // Describing your process is required.
@@ -86,14 +89,14 @@
 
 // Describe your process:
 // For is problem we do not need a function. However, it is possible to create one that would work. we cand do that by using the Built-in method .concat, This method is used to merge two arrays. It also does not change the existing arrays when combinding. 
-
 // NOTE:
-// To be honest I have not used the concat method I have have read about a thousand times tho. So im going to giving it a try! 
-
+// To be honest, I have not used the concat method I have have read about a thousand times tho. So im going to giving it a try! 
+//I need to do more coding on my own.  
 // I'm going turn the two given arrays into variables then I will combine them with the concat method. 
 
 // const padres1984WorldSeriesRuns = [2, 5, 2, 2, 4]
 // const padres1998WorldSeriesRuns = [6, 3, 5, 3]
+// console.log(padres1984WorldSeriesRuns.concat(padres1998WorldSeriesRuns))
 // // Expected output: 9
 
 // const concatRuns = (padres1984WorldSeriesRuns.concat(padres1998WorldSeriesRuns)).length
@@ -107,23 +110,17 @@
 
 // we need to start off by creating a new variable to equal to the original variable so that we can manipulate the array.
 // Now that we have the value of array to play with, we can use some array methods to alter the array. 
-
-//Next we need to ffind an array method that will Reverse values in an array. we can do that by using, .reverse() method. Next I need to find Find an method that will convert the string "Golf 2022" into an array.
-
-//The .split("") method will do. This will split all the characters in the string into elements of an array.
-
-//The value of our new variable bestCohortof2022ever is now an array.
-
-//Now that we have an array to work with, we can use .reverse() method to reverse the elements in our array.
-
-//The elements in the array are now reversed, however they are all seperated by single quotes since they are elements of an array.
-
-
-
+// Next we need to ffind an array method that will Reverse the values in an array. we can do that by using, .reverse() method. After that I need to find Find an method that will convert thee string "Golf 2022" into an array.
+// In this use case I will use the The .split(""). This will split all the characters in the string into elements of an array.
+// I will Start by creating a new a array. I will name it bestCohortof2022ever.
+// Now that we have an array to work with, we can use .reverse() method to reverse the elements in our array.
+// The elements in the array are now reversed, however they are all seperated by single quotes since they are elements of an array.
+// Lastly, we need to Console log the variable to check the result.
 
 //Find a method that will convert the array back into a string
 
-    // The .join("") method will do just that.
+// const bestCohortof2022ever = "Golf 2022"
+// console.log(bestCohortof2022ever.split(""))
 
 // Console log the variable to check the result.
 
@@ -131,10 +128,68 @@
 // // Expected output: "2202 floG"
 
 
-
 // const bestCohortof2022ever = currentCohort.split('').reverse().join("")
 // const currentCohort = "Golf 2022"
 // Expected output: "2202 floG"
 
 
+// --------------------4) Create the code that will return the last index of the given value from the array using the test variables provided below.
 
+// Describe your process:
+    
+    // 1. Find a method that will go through the array and grab the last of that element we pass in. 
+    
+    // 2. We will Use the .lastIndexOf() method on the array and pass the arguments to Return the last indexs value. This is useful 
+    // when there are repeated values in an array.
+    
+    // 3. We will do all this witin the console.log when calling on out array to pull the desired index.
+    
+        // The ouput should show us the last index or location of the number we pass in the array.
+    
+    
+        // const myNumbers = [13, 34, 42, 5, 5, 10, 27, 42, 10]
+    
+        // console.log(myNumbers.lastIndexOf(10))  
+        // output: 8
+        
+        // console.log(myNumbers.lastIndexOf(42))
+        // //output: 7
+//Rant: 
+// Aftergoing through this assesment I've realized I keep trying to remember everything and thats not going to happen. I'm familiar with the process and a good portion of the vocabulary. However, I still cannot recall the proper syntax to ultalize I have to look it up.
+
+
+
+
+// --------------------5) Create the code that will sort all the numbers in an array from largest to smallest. Use the test variables provided below.
+    
+    // Describe your process:
+    
+    //I need Find an array method that sorts. In this case, the method I will use is .sort()
+    // /When we utalize /Since .sort() sorts numbers from smallest to largest, so we must find a method that reverses the elementss in an array to make the numbers sort   from largest to smallest. In this case the method we can use is .reverse()
+    //We can do all this by staying within the console.log.
+    // Example:  console.log(myArrayList.sort().reverse())
+    //This code tells the interpreter to first sort the elements in the array and then reverse the order of that sorted list.
+    // Question: Can we can chain these two methods togeather. I have no idea how that looks. However, I 
+    
+
+
+    // const sanDiegoSummerTemperatures = [79, 80, 72, 73, 82, 77, 76]
+    // // Expected output: [82, 80, 79, 77, 76, 73, 72]
+    
+    // const sanDiegoWinterTemperatures = [59, 68, 62, 59, 66, 67, 66]
+    // // Expected output: [68, 67, 66, 66, 62, 59, 59]
+    
+    //console.log(sanDiegoSummerTemperatures.sort().reverse())  // [82, 80, 79, 77, 76, 73, 72]
+    //console.log(sanDiegoWinterTemperatures.sort().reverse())  // [68, 67, 66, 66, 62, 59, 59]
+    
+    
+    // -----------------------------------------------------------------------------------
+    
+    
+    
+    
+    
+    
+    
+  
+    
